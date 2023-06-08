@@ -1,0 +1,37 @@
+{
+    "name": "vite-dimsum-storybook-story",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@babel/runtime": "7.19.4",
+        "@elliemae/ds-button": "3.18.0",
+        "@elliemae/ds-data-table": "3.18.0",
+        "@elliemae/ds-grid": "3.18.0",
+        "@popperjs/core": "^2.11.6",
+        "classnames": "2.3.2",
+        "core-js": "3.25.5",
+        "fast-deep-equal": "3.1.3",
+        "lodash": "4.17.21",
+        "moment": "2.29.4",
+        "react": "~17.0.2",
+        "react-dates": "21.8.0",
+        "react-dom": "~17.0.2",
+        "react-is": ">= 16.8.0",
+        "react-with-direction": "^1.3.1",
+        "styled-components": "5.3.6",
+        "styled-system": "^5.1.5",
+        "uid": "2.0.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.21",
+        "@types/react-dom": "^18.0.6",
+        "@vitejs/plugin-react": "^2.1.0",
+        "vite": "^3.1.8"
+    }
+}
